@@ -53,4 +53,18 @@ router.put('/:id', (req, res) => {
   }
 });
 
+// Delete a movie
+router.delete('/:id', (req, res) => {
+  const key =  parseInt(req.params.id);
+  const index = moviesObject.movies.map((movie)=>{
+return movie.id;
+}).indexOf(key);
+ if (index > -1) {
+  moviesObject.movies.splice(index, 1);
+     res.status(200).send({message: `Deleted movie id: ${key}.`,status: 200});
+ } else {
+   res.status(404).send({message: `Unable to find movie with id: ${key}.`, status: 404});
+   }
+});
+
 export default router;
