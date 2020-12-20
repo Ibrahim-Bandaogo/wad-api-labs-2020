@@ -1,5 +1,7 @@
 import userModel from '../api/users/userModel';
 
+
+
 const users = [
   {
     'username': 'user1',
