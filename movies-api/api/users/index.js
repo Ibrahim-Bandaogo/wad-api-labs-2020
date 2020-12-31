@@ -9,10 +9,6 @@ router.get('/', (req, res) => {
     User.find().then(users =>  res.status(200).json(users));
 });
 
-// register
-router.post('/', (req, res ,next) => {
-    User.create(req.body).then(user => res.status(200).json({success:true,token:"FakeTokenForNow"})).catch(next);
-});
 
 // Update a user
 router.put('/:id',  (req, res) => {
