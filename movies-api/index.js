@@ -7,7 +7,8 @@ import './db';
 import {loadUsers} from './seedData'
 import usersRouter from './api/users';
 import session from 'express-session';
-import authenticate from './authenticate';
+//import authenticate from './authenticate';
+import passport from './authenticate';
 
 
 
@@ -31,6 +32,10 @@ const port = process.env.PORT;
 
 app.use(express.static('public'));
 
+// initialise passport​
+app.use(passport.initialize());
+
+
 //session middleware
 app.use(session({
   secret: 'ilikecake',
@@ -39,8 +44,9 @@ app.use(session({
 }));
 
 //update /api/Movie route
-app.use('/api/movies', authenticate, moviesRouter);
+//app.use('/api/movies', authenticate, moviesRouter);
 app.use('/api/genres', genresRouter);
+
 
 //configure body-parser
 app.use(bodyParser.json());
@@ -48,7 +54,8 @@ app.use(bodyParser.urlencoded());
 app.use('/api/users', usersRouter);
 app.use(errHandler);
 
-
+// Add passport.authenticate(..)  to middleware stack for protected routes​
+app.use('/api/movies', passport.authenticate('jwt', {session: false}), moviesRouter);
 
 app.listen(port, () => {
   console.info(`Server running at ${port}`);
