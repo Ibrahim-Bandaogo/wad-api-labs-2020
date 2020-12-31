@@ -40,7 +40,7 @@ app.use(session({
 
 //update /api/Movie route
 app.use('/api/movies', authenticate, moviesRouter);
-app.use('/api/genres', authenticate, genresRouter);
+app.use('/api/genres', genresRouter);
 
 //configure body-parser
 app.use(bodyParser.json());
