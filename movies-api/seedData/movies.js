@@ -17,7 +17,8 @@ export const movies = [
         "title": "Jiu Jitsu",
         "video": false,
         "vote_average": 5.9,
-        "vote_count": 111
+        "vote_count": 111,
+        "upcoming": true
     },
     {
         "adult": false,
@@ -37,7 +38,8 @@ export const movies = [
         "title": "Upside-Down Magic",
         "video": false,
         "vote_average": 7.6,
-        "vote_count": 64
+        "vote_count": 64,
+        "upcoming": false
     },
     {
         "adult": false,
@@ -57,7 +59,8 @@ export const movies = [
         "title": "Tenet",
         "video": false,
         "vote_average": 7.4,
-        "vote_count": 2638
+        "vote_count": 2638,
+        "upcoming": true
     },
     {
         "adult": false,
@@ -77,7 +80,8 @@ export const movies = [
         "title": "Fatman",
         "video": false,
         "vote_average": 6.1,
-        "vote_count": 118
+        "vote_count": 118,
+        "upcoming": true
     },
     {
         "adult": false,
@@ -95,7 +99,8 @@ export const movies = [
         "title": "The Dalton Gang",
         "video": false,
         "vote_average": 4.3,
-        "vote_count": 13
+        "vote_count": 13,
+        "upcoming": false
     },
     {
         "adult": false,
@@ -115,7 +120,8 @@ export const movies = [
         "title": "Joker",
         "video": false,
         "vote_average": 8.2,
-        "vote_count": 15818
+        "vote_count": 15818,
+        "upcoming": false
     },
     {
         "adult": false,
@@ -135,7 +141,8 @@ export const movies = [
         "title": "Magic Camp",
         "video": false,
         "vote_average": 7.1,
-        "vote_count": 102
+        "vote_count": 102,
+        "upcoming": false
     },
     {
         "adult": false,
@@ -154,7 +161,8 @@ export const movies = [
         "title": "Greenland",
         "video": false,
         "vote_average": 7.2,
-        "vote_count": 853
+        "vote_count": 853,
+        "upcoming": true
     },
     {
         "adult": false,
@@ -175,7 +183,8 @@ export const movies = [
         "title": "Mulan",
         "video": false,
         "vote_average": 7.2,
-        "vote_count": 3241
+        "vote_count": 3241,
+        "upcoming": true
     },
     {
         "adult": false,
@@ -194,7 +203,8 @@ export const movies = [
         "title": "Hard Kill",
         "video": false,
         "vote_average": 5,
-        "vote_count": 224
+        "vote_count": 224,
+        "upcoming": false
     },
     {
         "adult": false,
@@ -214,7 +224,8 @@ export const movies = [
         "title": "The Christmas Chronicles: Part Two",
         "video": false,
         "vote_average": 7.2,
-        "vote_count": 201
+        "vote_count": 201,
+        "upcoming": true
     },
     {
         "adult": false,
@@ -233,7 +244,8 @@ export const movies = [
         "title": "Chick Fight",
         "video": false,
         "vote_average": 5.8,
-        "vote_count": 48
+        "vote_count": 48,
+        "upcoming": true
     },
     {
         "adult": false,
@@ -253,7 +265,8 @@ export const movies = [
         "title": "Peninsula",
         "video": false,
         "vote_average": 6.9,
-        "vote_count": 867
+        "vote_count": 867,
+        "upcoming": false
     },
     {
         "adult": false,
@@ -275,7 +288,8 @@ export const movies = [
         "title": "Roald Dahl's The Witches",
         "video": false,
         "vote_average": 6.9,
-        "vote_count": 869
+        "vote_count": 869,
+        "upcoming": true
     },
     {
         "adult": false,
@@ -296,7 +310,8 @@ export const movies = [
         "title": "Rogue City",
         "video": false,
         "vote_average": 5.9,
-        "vote_count": 272
+        "vote_count": 272,
+        "upcoming": false
     },
     {
         "adult": false,
@@ -315,7 +330,8 @@ export const movies = [
         "title": "Rogue Warfare: Death of a Nation",
         "video": false,
         "vote_average": 4.8,
-        "vote_count": 10
+        "vote_count": 10,
+        "upcoming": false
     },
     {
         "adult": false,
@@ -337,7 +353,8 @@ export const movies = [
         "title": "Demon Slayer the Movie: Mugen Train",
         "video": false,
         "vote_average": 6,
-        "vote_count": 87
+        "vote_count": 87,
+        "upcoming": true
     },
     {
         "adult": false,
@@ -359,7 +376,8 @@ export const movies = [
         "title": "The SpongeBob Movie: Sponge on the Run",
         "video": false,
         "vote_average": 8,
-        "vote_count": 1669
+        "vote_count": 1669,
+        "upcoming": true
     },
     {
         "adult": false,
@@ -380,7 +398,8 @@ export const movies = [
         "title": "Ava",
         "video": false,
         "vote_average": 5.6,
-        "vote_count": 757
+        "vote_count": 757,
+        "upcoming": false
     },
     {
         "adult": false,
@@ -401,6 +420,7 @@ export const movies = [
         "title": "Welcome to Sudden Death",
         "video": false,
         "vote_average": 6.3,
-        "vote_count": 184
+        "vote_count": 184,
+        "upcoming": true
     }
 ];
